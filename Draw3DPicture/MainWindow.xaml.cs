@@ -29,9 +29,9 @@ namespace Draw3DPicture
 
         private void DrawPicture()
         {
-            int XLength = 400;
-            int YLength = 400;
-            int step = XLength / 10;
+            int XLength = (int)canvas.Width;
+            int YLength = (int)canvas.Height;
+            int step = YLength / 50;
 
             for (int y = 0; y <= YLength; y += step)
             {

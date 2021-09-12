@@ -5,6 +5,6 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Draw3DPicture"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="450">
-    <Canvas Height="450" Width="450" Name="canvas"></Canvas>
+        Title="MainWindow" Height="800" Width="800">
+    <Canvas Height="600" Width="600" Name="canvas"></Canvas>
 </Window>
