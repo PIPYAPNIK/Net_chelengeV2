@@ -29,14 +29,14 @@ namespace Draw3DPicture
 
         private void DrawPicture()
         {
-            int XLength = (int)canvas.Width;
-            int YLength = (int)canvas.Height;
-            int step = YLength / 50;
+            int xLength = (int)canvas.Width;
+            int yLength = (int)canvas.Height;
+            int step = yLength / 50;
 
-            for (int y = 0; y <= YLength; y += step)
+            for (int y = 0; y <= yLength; y += step)
             {
-                DrawLine(0, y, XLength - y, 0);
-                DrawLine(XLength, y, XLength - y, YLength);
+                DrawLine(0, y, yLength - y, 0);
+                DrawLine(xLength, y, xLength - y, yLength);
             }
         }
 
